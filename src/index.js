@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Age from './Age';
  
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Age />
   </React.StrictMode>,
   document.getElementById('root')
 );
