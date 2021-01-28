@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Objstate from './Objstate';
+import Initfx from './Initfx';
  
 ReactDOM.render(
   <React.StrictMode>
-    <Objstate />
+    <Initfx />
   </React.StrictMode>,
   document.getElementById('root')
 );
