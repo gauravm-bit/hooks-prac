@@ -6,11 +6,11 @@ const Age = () => {
     const[initialSibling,setSibling] = useState(3)
 
     const handleClick = () => {
-        setAge(initialAge+1)
+        setAge(initialAge + 1)
     }
 
     const handleSiblingCount = () => {
-        setSibling(initialSibling+1)
+        setSibling(initialSibling + 1)
     } 
  
     return(
@@ -19,7 +19,7 @@ const Age = () => {
             <button onClick={handleClick}>ADD AGE</button>
             <br/>
             You have {initialSibling} siblings
-            <button onClick={handleSiblingCount}> ADD SIBLINGgit</button>
+            <button onClick={handleSiblingCount}> ADD SIBLING</button>
         </div>
     )
 }

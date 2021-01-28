@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Age from './Age';
+import Objstate from './Objstate';
  
 ReactDOM.render(
   <React.StrictMode>
-    <Age />
+    <Objstate />
   </React.StrictMode>,
   document.getElementById('root')
 );
