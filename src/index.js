@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Initfx from './Initfx';
+import Func from './Func';
  
 ReactDOM.render(
   <React.StrictMode>
-    <Initfx />
+    <Func />
   </React.StrictMode>,
   document.getElementById('root')
 );
